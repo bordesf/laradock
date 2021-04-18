@@ -1653,3 +1653,7 @@ RUN apt-get clean && \
 
 # Set default work directory
 WORKDIR /var/www
+
+# Expose ports
+EXPOSE 6001
+EXPOSE 3000
